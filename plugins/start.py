@@ -6,7 +6,7 @@ async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Quran", url="https://t.me/Furqanbot")],
-        [InlineKeyboardBotton("I Love Islam", url="https://telegra.ph/I-LOVE-ISLAM-04-21:same")],
+        [InlineKeyboardBotton("I Love Islam", url="https://telegra.ph/I-LOVE-ISLAM-04-21")],
         [InlineKeyboardButton(
             "Maktabah", url="https://t.me/Abdallaahbot")]
     ])
