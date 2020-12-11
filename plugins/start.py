@@ -14,7 +14,7 @@ async def start(client, message):
     raise StopPropagation
 
 @Client.on_message(Filters.command(["juhudi"]), group=-2)
-async def start(client, message):
+async def juhudi(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Quran", url="https://t.me/Furqanbot")],
