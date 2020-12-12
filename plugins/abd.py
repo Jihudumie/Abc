@@ -6,6 +6,7 @@ async def start(client, message):
     # return
     gehabutton = InlineKeyboardMarkup([
         [InlineKeyboardButton("KITABU", url="https://t.me/Furqanbot")],
+        [inlineKeyboardButton("JINA", url="https://telegra.ph/017---Al-Israa-12-29")],
         [InlineKeyboardButton(
             "NYUMBANI", url="https://t.me/Abdallaahbot")]
     ])
