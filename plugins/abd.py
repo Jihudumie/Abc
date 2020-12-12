@@ -11,6 +11,7 @@ async def start(client, message):
             "NYUMBANI", url="https://t.me/Abdallaahbot")]
         
     ])
+
     abdallaah = f"Hey <b>{message.from_user.first_name}</b>\n/Master Karibu Saaana"
     await message.reply_text(abdallaah, reply_markup=gehabutton)
     raise StopPropagation
