@@ -6,17 +6,19 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def start(client, message):
     # return
     juhudbutton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("01. BULUWGH", url="https://telegra.ph/01-Buluwgh-Al-Maraam-Kitabu-Cha-Jihaad-12-12-3")],
-        [InlineKeyboardButton("02. BULUWGH", url="https://telegra.ph/02-Buluwgh-Al-Maraam-Kitabu-Cha-Jihaad-Mlango-Wa-Jizya-Na-Kusitisha-Vita-07-12")], 
+        [InlineKeyboardButton("Maana ya Jihaad", url="https://telegra.ph/Jihaad-Maana-Ya-Jihaad-Na-Kuwekewa-Shariah-01-24")],
+        [InlineKeyboardButtond("Khawaarij", url="https://telegra.ph/Khawaarij-04-16")],
+        [InlineKeyboardButton("Jihaad Ni Waajib", url="https://telegra.ph/Jihaad-Ni-Waajib-01-24")],
+        [InlineKeyboardButton("Wajibu Wa Kuwa Thabiti", url="https://telegra.ph/Wajibu-Wa-Kuwa-Thabiti-01-24")],
+        [InlineKeyboardButton("Fadhila Za Jihaad", url="https://telegra.ph/Fadhila-Za-Jihaad-01-24")],
+        [InlineKeyboardButton("ajibu Wa Viongozi Wa Jeshi", url="https://telegra.ph/Wajibu-Wa-Viongozi-Wa-Jeshi-01-24")],
+        [InlineKeyboardButton("Al-Wahn", url="https://telegra.ph/Al-Wahn-01-24")],
+        [InlineKeyboardButton("ISLAMIC STATE", url="https://telegra.ph/Ribbiyyuwna-04-26")], 
         [InlineKeyboardButton(
-            "03. BULUWGH", url="https://telegra.ph/03-Buluwgh-Al-Maraam-Kitabu-Cha-Jihaad-Mlango-Wa-Mashindano-Ya-Farasi-Na-Kurusha-Mishale-07-12-2")]
+            "📚 KUJITOA MUHANGA 📖", url="https://telegra.ph/KUJITOA-MUHANGA-02-21")]
         
     ])
 
-    juhud_txt = f"""<b>﷽
-
-كِتَابُ الْجِهادِ
-
-<u>Kitabu cha Jihaad</u></b>"""
+    juhud_txt = f"<i>Jifunze Au Soma Ibaada Ya Jihaad Kupitia hapa</i>"
     await message.reply_text(juhud_txt, reply_markup=juhudbutton)
     raise StopPropagation
