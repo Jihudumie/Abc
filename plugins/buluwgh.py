@@ -12,6 +12,10 @@ async def start(client, message):
         
     ])
 
-    buluwgh = f"Hey <b>{message.from_user.first_name}</b>\n/Master Karibu Saaana"
+    buluwgh = f"""<b>﷽
+
+كِتَابُ الْجِهادِ
+
+<u>Kitabu cha Jihaad</u></b>"""
     await message.reply_text(buluwgh, reply_markup=buluwghbutton)
     raise StopPropagation
