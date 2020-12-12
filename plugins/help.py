@@ -8,5 +8,9 @@ async def start(client, message):
 
 @Client.on_message(Filters.command(["islam"]))
 async def islamu(client, message):
-    helptxt = f"https://telegra.ph/I-LOVE-ISLAM-04-21"
+    helptxt = f"""https://telegra.ph/I-LOVE-ISLAM-04-21
+
+
+https://t.me/Furqanbot
+"""
     await message.reply_text(helptxt)
