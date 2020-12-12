@@ -10,4 +10,4 @@ async def start(client, message):
 async def islamu(client, message):
     tugeme_juzu = f"kitabu \n  https://t.me/Furqanbot"
     juzuutxt = f"https://telegra.ph/Juzuu-ya-1-Hadi-Ya-30-01-22"
-    await message.reply_text(juzuutxt, tugeme_juzu)
+    await message.reply_text(tugeme_juzu, juzuutxt)
