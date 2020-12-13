@@ -18,7 +18,7 @@ Kama una Hitaji Kusoma Au Kusiliza Qur'an Tukufu.
 
 <u>Kwa Darsa Mbali Mbali. 
 Txt 📄, Audio 🎧, Video & File N.k.</u>
-❖ @Hamisbot
+❖ @Hamisbot / ❖ @AbdallaahBot
 
 Kuongea Nasi Au Viongozi Tuandikie ✍.
 👉 @ViongoziBot Na Shidayako itafika Kwetu
