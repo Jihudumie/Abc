@@ -22,6 +22,6 @@ async def start(client, message):
         
     ])
 
-    juhud_txt = f"<i>**Jifunze Au Soma Ibaada Ya Jihaad Kupitia hapa**</i>"
+    juhud_txt = f"<i>**Jifunze Au Soma Ibaada Ya Jihaad Kupitia hapa**</i> 👇"
     await message.reply_text(juhud_txt, reply_markup=juhudbutton)
     raise StopPropagation
