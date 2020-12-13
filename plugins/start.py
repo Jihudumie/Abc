@@ -5,7 +5,7 @@ from pyrogram import Client, Filters
 async def start(client, message):
     welcomed = f"""<u>بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</u>
 
-<i>Ndugu</i> <b>{message.from_user.first_name}</b> <i>Karibu Kwa Ajili ya Allaah</i>
+<i>Ndugu</i>  <b><u>{message.from_user.first_name}</u></b> <i>Karibu Katika Elimu ya **Jihaad**</i>
 
 
        ➠ /Jihaad 🖲
