@@ -2,11 +2,11 @@
 from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 
 
-@Client.on_message(Filters.command(["jihaad"]), group=-2)
+@Client.on_message(Filters.command(["jihaad", "jihaad@JihaadBot"]), group=-2)
 async def start(client, message):
     # return
     juhudbutton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Maana ya Jihaad", url="https://telegra.ph/Jihaad-Maana-Ya-Jihaad-Na-Kuwekewa-Shariah-01-24")],
+        [InlineKeyboardButton("Maana Ya Jihaad Na Kuwekewa Shari'ah", url="https://telegra.ph/Jihaad-Maana-Ya-Jihaad-Na-Kuwekewa-Shariah-01-24")],
         [InlineKeyboardButton("Khawaarij", url="https://telegra.ph/Khawaarij-04-16")],
         [InlineKeyboardButton("Jihaad Ni Waajib", url="https://telegra.ph/Jihaad-Ni-Waajib-01-24")],
         [InlineKeyboardButton("Wajibu Wa Kuwa Thabiti", url="https://telegra.ph/Wajibu-Wa-Kuwa-Thabiti-01-24")],
