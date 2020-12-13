@@ -3,30 +3,36 @@ from pyrogram import Client, Filters
 
 @Client.on_message(Filters.command(["start", "start@JihaadBot"]))
 async def start(client, message):
-    welcomed = f"""     ﷽<\n><i>Assalaam Aleykum Warahmatullah Wabarakaatuh\</i>\n
- <b>{message.from_user.first_name}</b>
+    welcomed = f"""<u>بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</u>
 
-<u>بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</u>
+<i>Ndugu</i> <b>{message.from_user.first_name}</b> <i>Karibu Kwa Ajili ya Allaah</i>
+
+
        ➠ /Jihaad 🖲
+       ➠ /buluwgh  🖲
 <b>JIHAAD</b> imekusanya kila aina ya ibada za kiroho na kiwiliwili, kuikinai dunia, kuihama nchi na kuyahama matamanio na hii ndiyo maana ikapewa jina la ‘Uchaji Allaah’, kwani imekuja katika Hadiyth kuwa:
 
-<b>‘Ucha Mungu wa umma wangu ni Jihaad katika njia ya Allaah.”</b>
+<b>‘Uchaji __Allaah wa umma wangu ni Jihaad__ katika njia ya Allaah.”</b>
 
 Na ndani yake mna kuitakasa nafsi, kuitakasa mali, na kumuuzia Allaah nafsi, na haya yote ni matunda ya mapenzi na imani na yakini na kuelekea kwa Allaah (Subhaanahu wa Ta’ala).
 
-NDUGU ZANGU KATIKA IMAAN MIMI NDUGU YENU NIME WATENGENEZEA ROBOT HII ILI MPATE KUJIFUNZA KWA WEPESI NA KWA WAKATI WOWOTE.
+NDUGU ZANGU KATIKA IMAAN, MIMI NDUGU YENU NIMETENGENEZEA ROBOT HII 👉 @JihaadBot. ILI TUPATE KUJIFUNZA KWA WEPESI NA KWA WAKATI WOWOTE.
 
-Gusa hapa ➠ /hamis Kupata Vitabu 📖📚 Au darsa
+__Gusa hapa__ ➠ /Jihaad
+__Au hapo__ ➠/buluwgh
+
+ Kupata Vitabu 📚 Au darsa 📖
 
 Mtume wa Allaah (Swalla Allaahu ‘alayhi wa sallam) amesema:
 <b>“Shahidi hahisi maumivu ya kuuliwa ila kama mmoja wenu anavyohisi maumivu ya kufinywa.”</b>
 
-Hayo  Na Mengine Allah Atakuonyesha Hapa ➠ /hamis au ➠ /jihaad:
+Hayo  Na Mengine Allah Atakuonyesha Hapa ➠/jihaad:
 
 ➠ /help Kwa Msaada zaidi..
 
 Kwa elimu zaidi  
-➠ @KhamisBot  ➠ @AbdallaahBot"""
+➠ @AbdallaahBot
+➠ @HamisBot"""
     await message.reply_text(welcomed)
 
 @Client.on_message(Filters.command(["help", "help@JihaadBot"]))
