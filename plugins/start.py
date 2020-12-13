@@ -26,13 +26,13 @@ __Au hapo__ ➠/buluwgh
 Mtume wa Allaah (Swalla Allaahu ‘alayhi wa sallam) amesema:
 <b>“Shahidi hahisi maumivu ya kuuliwa ila kama mmoja wenu anavyohisi maumivu ya kufinywa.”</b>
 
-Hayo  Na Mengine Allah Atakuonyesha Hapa ➠/jihaad:
+Hayo  Na Mengine Allah Atakuonyesha Hapa ➠/jihaad 👈:
 
-➠ /help Kwa Msaada zaidi..
+➠ /help 👈 Kwa Msaada zaidi..
 
 Kwa elimu zaidi  
-➠ @AbdallaahBot
-➠ @HamisBot"""
+➠ @AbdallaahBot 👈
+➠ @HamisBot 👈"""
     await message.reply_text(welcomed)
 
 @Client.on_message(Filters.command(["help", "help@JihaadBot"]))
@@ -64,3 +64,21 @@ Allah Akujaalie Wepesi Katika Mambo yako na Akupe <b>Mwisho Mwema</b> Aamiyn
 
 
 
+from pyrogram import Client, Filters
+
+
+@Client.on_message(Filters.command(["amulizote", "amulizote@JihawdBot"]))
+async def start(client, message):
+    amulizote = f"""Command Zangu Zoote Zenye Elimu Za Jihaad
+
+All Commands
+    ☟☟☟
+
+1. /start 👈
+
+2. /Jihaad 👈
+
+3. /buluwgh 👈
+
+4. /help 👈 """
+    await message.reply_text(amulizote)
