@@ -37,7 +37,9 @@ Kwa elimu zaidi
 
 @Client.on_message(Filters.command(["help", "help@JihaadBot"]))
 async def help(client, message):
-    helptxt = f"""<b>Hapa ni sehemu ya Msaada</b>
+    helptxt = f"""
+    <b><u>{message.from_user.first_name}</u></b>
+<b><i>Hapa ni sehemu ya Msaada</i></b>
 
 🖲 <a
 href='https://telegra.ph/I-LOVE-ISLAM-04-21'>I LOVE ISLAM</a>
@@ -47,13 +49,17 @@ Kama una Hitaji Kusoma Au Kusiliza Qur'an Tukufu.
 
 <u>Kwa Darsa Mbali Mbali. 
 Txt 📄, Audio 🎧, Video & File N.k.</u>
-❖ @Hamisbot / ❖ @AbdallaahBot
+❖ @Hamisbot
+❖ @AbdallaahBot
 
-Kuongea Nasi Au Viongozi Tuandikie ✍.
-👉 @ViongoziBot Na Shidayako itafika Kwetu
+Kuongea ✆ Na Mimi Au Viongozi Tuandikie ✍
+Kupitia hapo ☞@ViongoziBot, Na Shidayako itafika Kwetu
 Kwa Idhini ya Allah Tutakusaidia In Shaa Allah.
 
-Allah Akujaalie Wepesi Katika Mambo yako na Akupe <b>Mwisho Mwema</b> Aamiyn"""
+Allah Akujaalie Wepesi Katika Mambo yako na Akupe <b>Mwisho Mwema</b> Aamiyn
+
+       ➠ /Jihaad 🖲
+       ➠ /buluwgh  🖲"""
     await message.reply_text(helptxt)
 
 
