@@ -2,7 +2,7 @@
 from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 
 
-@Client.on_message(Filters.command(["jihaad", "jihaad@JihaadBot"]), group=-2)
+@Client.on_message(Filters.command(["jihaad", "hamis", "jihaad@JihaadBot"]), group=-2)
 async def start(client, message):
     # return
     juhudbutton = InlineKeyboardMarkup([
