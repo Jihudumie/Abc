@@ -8,7 +8,7 @@ async def start(client, message):
 
 @Client.on_message(Filters.command(["help", "help@JihaadBot"]))
 async def help(client, message):
-    help_txt = f"""<b>Hapa ni sehemu ya Msaada</b>
+    helptxt = f"""<b>Hapa ni sehemu ya Msaada</b>
 
 🖲 <a
 href='https://telegra.ph/i-love-islam-01-24'>I LOVE ISLAM</a>
@@ -25,7 +25,7 @@ Kuongea Nasi Au Viongozi Tuandikie ✍.
 Kwa Idhini ya Allah Tutakusaidia In Shaa Allah.
 
 Allah Akujaalie Wepesi Katika Mambo yako na Akupe <b>Mwisho Mwema</b> Aamiyn"""
-    await message.reply_text(help_txt)
+    await message.reply_text(helptxt)
 
 
 
