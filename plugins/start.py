@@ -11,7 +11,7 @@ async def help(client, message):
     helptxt = f"""<b>Hapa ni sehemu ya Msaada</b>
 
 🖲 <a
-href='https://telegra.ph/i-love-islam-01-24'>I LOVE ISLAM</a>
+href='https://telegra.ph/I-LOVE-ISLAM-04-21'>I LOVE ISLAM</a>
 
 Kama una Hitaji Kusoma Au Kusiliza Qur'an Tukufu.
 ❖ @Furqanbot
