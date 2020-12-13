@@ -68,7 +68,7 @@ from pyrogram import Client, Filters
 
 
 @Client.on_message(Filters.command(["amulizote", "amulizote@JihawdBot"]))
-async def start(client, message):
+async def amulizote(client, message):
     amulizote = f"""Command Zangu Zoote Mimi @JihaadBot
 
 All Commands
