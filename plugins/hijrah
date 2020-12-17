@@ -1,0 +1,19 @@
+from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
+
+
+@Client.on_message(Filters.command(["hijrah", "hijrah@JihaadBot"]), group=-2)
+async def hijrah(client, message):
+    # return
+    hijrahbutton = InlineKeyboardMarkup([
+        [InlineKeyboardButton("", url="")],
+        [InlineKeyboardButton("", url="")], 
+        [InlineKeyboardButton(
+            "", url="")]
+        
+    ])
+
+    buluwgh = f"""
+
+"""
+    await message.reply_text(hijrah, reply_markup=hijrahbutton)
+    raise StopPropagation
