@@ -13,7 +13,10 @@ async def hijrah(client, message):
         
     ])
 
-    hijrah = f""" Je? Unataka Kufanya Hijra? 
+    hijrah = f""" 
+    Ndugu {message.from_user.mention_name}
+
+Je? Unataka Kufanya Hijra? 
 Wasiliana Nasi kupitia hapa
 👉 @HijiraBot
 
