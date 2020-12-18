@@ -14,7 +14,7 @@ async def hijrah(client, message):
     ])
 
     hijrah = f""" 
-    Ndugu {message.from_user.mention_name}
+    Ndugu {message.from_user.id}
 
 Je? Unataka Kufanya Hijra? 
 Wasiliana Nasi kupitia hapa
@@ -23,3 +23,5 @@ Wasiliana Nasi kupitia hapa
 """
     await message.reply_text(hijrah, reply_markup=hijrahbutton)
     raise StopPropagation
+
+
