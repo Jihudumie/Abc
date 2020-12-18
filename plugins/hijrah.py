@@ -14,12 +14,14 @@ async def hijrah(client, message):
     ])
 
     hijrah = f""" 
-    Ndugu {message.from_user.mention}
+    <b>Ndugu {message.from_user.mention}<b/> Karibu. 
 
-Je? Unataka Kufanya Hijra? 
-Wasiliana Nasi kupitia hapa
+**Je? Unataka Kufanya Hijra? 
+Wasiliana Nasi kupitia hapa.**
 👉 @HijiraBot
 
+<i>Au Endelea Kujisoma Kuhusu Darsa Za</i> **Hijrah** Hapo
+           **👇👇👇**
 """
     await message.reply_text(hijrah, reply_markup=hijrahbutton)
     raise StopPropagation
