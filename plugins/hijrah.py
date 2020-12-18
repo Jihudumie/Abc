@@ -15,7 +15,7 @@ async def hijrah(client, message):
 
     hijrah = f""" Je? Unataka Kufanya Hijra? 
 Wasiliana Nasi kupitia hapa
-👉 @@HijiraBot
+👉 @HijiraBot
 
 """
     await message.reply_text(hijrah, reply_markup=hijrahbutton)
