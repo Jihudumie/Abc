@@ -14,7 +14,7 @@ async def hijrah(client, message):
     ])
 
     hijrah = f""" 
-    Ndugu {message.from_user.id}
+    Ndugu {message.from_user.mention}
 
 Je? Unataka Kufanya Hijra? 
 Wasiliana Nasi kupitia hapa
