@@ -80,5 +80,7 @@ All Commands
 
 3. /buluwgh 👈
 
-4. /help 👈 """
+4. /help 👈 
+
+5. /hijrah 👈"""
     await message.reply_text(amulizote)
