@@ -7,9 +7,9 @@ async def hijrah(client, message):
     hijrahbutton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Uwajibu wa Hijrah", url="https://telegra.ph/Uwajibu-wa-Hijrah-12-18")],
         [InlineKeyboardButton("Hijrah ni kutoka katika mji wa kikafiri", url="https://telegra.ph/Hijrah-ni-kutoka-katika-mji-wa-kikafiri-na-kwenda-wa-Kiislamu-12-18")], 
-        [InlineKeyboardButton("Hijrah itaendelea kuwepo mpaka siku ya Qiyaamah", url="https://telegra.ph/Hijrah-itaendelea-kuwepo-mpaka-siku-ya-Qiyaamah-12-18")],
+        [InlineKeyboardButton("Hijrah itaendelea kuwepo mpaka Qiyaamah", url="https://telegra.ph/Hijrah-itaendelea-kuwepo-mpaka-siku-ya-Qiyaamah-12-18")],
         [InlineKeyboardButton(
-            "Hijrah ya Mtum", url="https://telegra.ph/Hijrah-ya-Mtume-صلى-الله-عليه-وسلم-kutoka-Makkah-na-kwenda-al-Madiynah-12-18")]
+            "Hijrah ya Mtume", url="https://telegra.ph/Hijrah-ya-Mtume-صلى-الله-عليه-وسلم-kutoka-Makkah-na-kwenda-al-Madiynah-12-18")]
         
     ])
 
@@ -20,7 +20,7 @@ async def hijrah(client, message):
 Wasiliana Nasi kupitia hapa.**
 👉 @HijiraBot
 
-<i>Au Endelea Kujisoma Kuhusu Darsa Za</i> **Hijrah** Hapo
+<i>Au Endelea Kujisomea Kuhusu Darsa Za</i> **Hijrah** Hapo
            **👇👇👇**
 """
     await message.reply_text(hijrah, reply_markup=hijrahbutton)
