@@ -6,9 +6,9 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def start(client, message):
     # return
     hamabutton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Ibaada Bora", url="https://telegra.ph/Uwajibu-wa-Hijrah-12-18")],
-        [InlineKeyboardButton("Maana Ya Jihaad", url="https://telegra.ph/Jihaad-Maana-Ya-Jihaad-Na-Kuwekewa-Shariah-01-24")],
-        [InlineKeyboardButton("Khawaarij", url="https://telegra.ph/Khawaarij-04-16")],
+        [InlineKeyboardButton("Uwajibu wa Hijrah, url="https://telegra.ph/Uwajibu-wa-Hijrah-12-18")],
+        [InlineKeyboardButton("Hijrah ni kutoka katika mji wa kikafiri", url="https://telegra.ph/Hijrah-ni-kutoka-katika-mji-wa-kikafiri-na-kwenda-wa-Kiislamu-12-18")],
+        [InlineKeyboardButton("Hijrah itaendelea kuwepo mpaka Qiyaamah", url="https://telegra.ph/Hijrah-itaendelea-kuwepo-mpaka-siku-ya-Qiyaamah-12-18")],
         [InlineKeyboardButton("Jihaad Ni Waajib", url="https://telegra.ph/Jihaad-Ni-Waajib-01-24")],
         [InlineKeyboardButton("Wajibu Wa Kuwa Thabiti", url="https://telegra.ph/Wajibu-Wa-Kuwa-Thabiti-01-24")],
         [InlineKeyboardButton("Fadhila Za Jihaad", url="https://telegra.ph/Fadhila-Za-Jihaad-01-24")],
