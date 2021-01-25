@@ -6,7 +6,7 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def start(client, message):
     # return
     hamabutton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Ibaada Bora", url="https://telegra.ph/Khamis-02-19")],
+        [InlineKeyboardButton("Ibaada Bora", url="https://telegra.ph/Uwajibu-wa-Hijrah-12-18")],
         [InlineKeyboardButton("Maana Ya Jihaad", url="https://telegra.ph/Jihaad-Maana-Ya-Jihaad-Na-Kuwekewa-Shariah-01-24")],
         [InlineKeyboardButton("Khawaarij", url="https://telegra.ph/Khawaarij-04-16")],
         [InlineKeyboardButton("Jihaad Ni Waajib", url="https://telegra.ph/Jihaad-Ni-Waajib-01-24")],
