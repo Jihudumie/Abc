@@ -2,10 +2,10 @@
 from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 
 
-@Client.on_message(Filters.command(["jihaad", "hamis", "hamis@JihaadBot", "jihaad@JihaadBot"]), group=-2)
+@Client.on_message(Filters.command(["hijrah", "hijrah@JihaadBot"]), group=-2)
 async def start(client, message):
     # return
-    juhudbutton = InlineKeyboardMarkup([
+    hamabutton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Ibaada Bora", url="https://telegra.ph/Khamis-02-19")],
         [InlineKeyboardButton("Maana Ya Jihaad", url="https://telegra.ph/Jihaad-Maana-Ya-Jihaad-Na-Kuwekewa-Shariah-01-24")],
         [InlineKeyboardButton("Khawaarij", url="https://telegra.ph/Khawaarij-04-16")],
@@ -22,6 +22,6 @@ async def start(client, message):
         
     ])
 
-    juhud_txt = f"<i>**Jifunze Au Soma Ibaada Ya Jihaad Kupitia hapa**</i> 👇"
-    await message.reply_text(juhud_txt, reply_markup=juhudbutton)
+    hama_txt = f"<i>**Jifunze Au Soma Ibaada Ya Jihaad Kupitia hapa**</i> 👇"
+    await message.reply_text(hama_txt, reply_markup=hamabutton)
     raise StopPropagation
