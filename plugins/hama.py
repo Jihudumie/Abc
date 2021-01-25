@@ -5,7 +5,7 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 @Client.on_message(Filters.command(["hijrah", "hijrah@JihaadBot"]), group=-2)
 async def start(client, message):
     # return
-    hamabutton = InlineKeyboardMarkup([
+    hijrahbutton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Uwajibu wa Hijrah", url="https://telegra.ph/Uwajibu-wa-Hijrah-12-18")],
         [InlineKeyboardButton("Hijrah ni kutoka katika mji wa kikafiri", url="https://telegra.ph/Hijrah-ni-kutoka-katika-mji-wa-kikafiri-na-kwenda-wa-Kiislamu-12-18")],
         [InlineKeyboardButton("Hijrah itaendelea kuwepo mpaka Qiyaamah", url="https://telegra.ph/Hijrah-itaendelea-kuwepo-mpaka-siku-ya-Qiyaamah-12-18")],
@@ -22,7 +22,7 @@ async def start(client, message):
         
     ])
 
-    hama_txt = f"""
+    hijrah = f"""
 
     <b>Ndugu {message.from_user.mention}<b/> Karibu. 
 
@@ -34,5 +34,5 @@ Wasiliana Nasi kupitia hapa.**
            **👇👇👇**
 
 """
-    await message.reply_text(hama_txt, reply_markup=hamabutton)
+    await message.reply_text(hijrah, reply_markup=hijrahbutton)
     raise StopPropagation
