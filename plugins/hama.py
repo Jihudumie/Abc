@@ -3,7 +3,7 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 
 
 @Client.on_message(Filters.command(["hijrah", "hijrah@JihaadBot"]), group=-2)
-async def kuhama(client, message):
+async def hijrah(client, message):
     # return
     hijrahbutton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Uwajibu wa Hijrah", url="https://telegra.ph/Uwajibu-wa-Hijrah-12-18")],
