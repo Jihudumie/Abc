@@ -22,17 +22,13 @@ async def hama_text(client, message):
         
     ])
 
-    hijrah = f"""
-
-    <b>Ndugu {message.from_user.mention}<b/> Karibu. 
+    hijrah = f"""<b>Ndugu {message.from_user.mention}<b/> Karibu. 
 
 **Je? Unataka Kufanya Hijra? 
 Wasiliana Nasi kupitia hapa.**
 👉 @HijiraBot
 
 <i>Au Endelea Kujisomea Kuhusu Darsa Za</i> **Hijrah** Hapo
-           **👇👇👇**
-
-"""
+           **👇👇👇**"""
     await message.reply_text(hijrah, reply_markup=hijrahbutton)
     raise StopPropagation
