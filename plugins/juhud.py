@@ -3,7 +3,7 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 
 
 @Client.on_message(Filters.command(["jihaad", "hamis", "hamis@JihaadBot", "jihaad@JihaadBot"]), group=-2)
-async def start(client, message):
+async def jihaad(client, message):
     # return
     juhudbutton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Ibaada Bora", url="https://telegra.ph/Khamis-02-19")],
