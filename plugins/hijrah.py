@@ -22,6 +22,6 @@ Wasiliana Nasi kupitia hapa.**
 
 <i>Au Endelea Kujisomea Kuhusu Darsa Za</i> **Hijrah** Hapo
            **👇👇👇**"""
-    await message.reply_text(hijrah, reply_markup=hijrahbutton)
+    await message.reply_text(hijrah_txt, reply_markup=hijrahbutton)
     raise StopPropagation
 
