@@ -14,16 +14,14 @@ async def kuhama(client, message):
         
     ])
 
-    hijrah_txt = f""" 
-    <b>Ndugu {message.from_user.mention}<b/> Karibu. 
+    hijrah_txt = f"""<b>Ndugu {message.from_user.mention}<b/> Karibu. 
 
 **Je? Unataka Kufanya Hijra? 
 Wasiliana Nasi kupitia hapa.**
 👉 @HijiraBot
 
 <i>Au Endelea Kujisomea Kuhusu Darsa Za</i> **Hijrah** Hapo
-           **👇👇👇**
-"""
+           **👇👇👇**"""
     await message.reply_text(hijrah, reply_markup=hijrahbutton)
     raise StopPropagation
 
